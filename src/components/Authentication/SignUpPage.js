@@ -72,7 +72,7 @@ const SignUpPage = () => {
   return (
     <>
       <h5 className={classes.desclaimer}>
-        Disclaimer: This is a demo website and is for Education purposes only.
+        Disclaimer: Using this website implies agreement to our terms, including eligibility, account security, and privacy policies
       </h5>
       <section className={classes.box}>
         <h1>SignUp</h1>
