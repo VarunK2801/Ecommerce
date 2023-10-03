@@ -26,6 +26,10 @@ export const AuthProvider = (props) => {
         localStorage.removeItem("token");
         localStorage.removeItem("email");
         alert("Logged out");
+        setTimeout(()=>{
+            localStorage.clear();
+            setToken(null);
+        },5*60*1000);
     }
 
     const obj = {
